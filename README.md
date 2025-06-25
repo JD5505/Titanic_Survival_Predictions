@@ -14,6 +14,9 @@ titanic-ml/
 │   └── test_processed.csv
 ├── Logistic_Pred.ipynb
 ├── knn_pred.ipynb
+├── SVM_Pred.ipynb
+├── SVM_Kernel_Pred.ipynb
+├── NaiveBayes_Pred.ipynb
 ├── RandomForestPred.ipynb
 ├── requirements.txt
 └── README.md
@@ -23,6 +26,8 @@ titanic-ml/
 
 - **Logistic Regression**
 - **K-Nearest Neighbors (KNN)**
+- **Support Vector Machine (SVM)** — including kernel tricks (e.g. RBF, polynomial)
+- **Naive Bayes Classifier**
 - **Random Forest Classifier**
 
 Each model was trained and tested after:
@@ -54,6 +59,9 @@ The original data was taken from [Kaggle Titanic Competition](https://www.kaggle
 3. Open any notebook:
    - `Logistic_Pred.ipynb`
    - `knn_pred.ipynb`
+   - `SVM_Pred.ipynb`
+   - `SVM_Kernel_Pred.ipynb`
+   - `NaiveBayes_Pred.ipynb`
    - `RandomForestPred.ipynb`
 
 4. Run all cells to preprocess data and make predictions.
